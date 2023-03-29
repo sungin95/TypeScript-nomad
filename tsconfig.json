@@ -3,6 +3,7 @@
   "compilerOptions": {
     "outDir": "build", // 자바스크립트를 어디에 만들지 정해줘야 한다.
     "target": "ES6",
-    "lib": ["ES6", "DOM"] // "DOM"을 넣어야 document. , localStorage. , window. 이걸 인식한다.
+    "lib": ["ES6", "DOM"], // "DOM"을 넣어야 document. , localStorage. , window. 이걸 인식한다.
+    "strict": true
   }
 }
